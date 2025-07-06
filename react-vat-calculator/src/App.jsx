@@ -1,3 +1,6 @@
+import { useState } from 'react'
+import './App.css'
+
 function App() {
   const [price, setPrice] = useState(0)
   const [discount, setDiscount] = useState(0)
